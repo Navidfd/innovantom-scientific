@@ -2,32 +2,81 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>About - Innovantum Scientific</title>
-  <meta name="description" content="About Innovantum Scientific – Navid Farhoudi, PhD, consulting in MEMS, sensors, and biomedical devices.">
+  <meta name="description" content="Learn about Innovantum Scientific, a consulting firm specializing in sensors, MEMS, and biomedical devices.">
   <style>
-    body { font-family: Arial, sans-serif; margin: 40px; line-height: 1.6; color:#111; }
-    nav a { margin-right: 15px; text-decoration: none; color: #007acc; font-weight:bold; }
-    h1, h2 { color: #333; }
-    img.profile { max-width:150px; border-radius:50%; margin-bottom:20px; }
+    body {
+      font-family: system-ui, Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.5;
+      color: #111;
+    }
+    header {
+      padding: 40px 20px;
+      text-align: center;
+      background: #f5f5f5;
+    }
+    nav {
+      text-align: center;
+      margin-top: 20px;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #007acc;
+      font-weight: bold;
+      padding-bottom: 2px;
+    }
+    nav a.active {
+      border-bottom: 2px solid #007acc;
+    }
+    main {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+    h1, h2 {
+      color: #333;
+    }
+    footer {
+      text-align: center;
+      padding: 30px;
+      color: #777;
+    }
+    ul {
+      list-style: disc inside;
+    }
   </style>
 </head>
 <body>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="mailto:contact@innovsci.com">Contact</a>
-  </nav>
+  <header>
+    <h1>About Innovantum Scientific</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html" class="active">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
 
-  <h1>About Innovantum Scientific</h1>
-  <img src="assets/images/navid.png" alt="Navid Farhoudi" class="profile">
-  <p><strong>Navid Farhoudi, PhD</strong> – 12+ years experience in sensors, MEMS, and biomedical devices.</p>
+  <main>
+    <h2>Our Mission</h2>
+    <p>Innovantum Scientific delivers advanced consulting and engineering solutions in sensors, MEMS, and biomedical devices, helping innovators bring concepts to life efficiently and reliably.</p>
 
-  <h2>Services</h2>
-  <ul>
-    <li>Multiphysics simulations (COMSOL, MATLAB, Python)</li>
-    <li>MEMS & implantable biomedical sensor consulting</li>
-    <li>Grant / SBIR proposal consulting</li>
-    <li>Prototype design & review</li>
-  </ul>
+    <h2>Our Services</h2>
+    <ul>
+      <li>Multiphysics simulations and modeling (COMSOL, MATLAB, Python)</li>
+      <li>MEMS & implantable biomedical sensor consulting</li>
+      <li>Prototype design, evaluation, and optimization</li>
+      <li>SBIR and grant proposal strategy and writing</li>
+      <li>System integration and validation for medical and industrial devices</li>
+    </ul>
+
+    <h2>Why Choose Us</h2>
+    <p>With a decade of experience in advanced sensor systems and biomedical applications, Innovantum Scientific combines technical expertise with practical implementation knowledge to accelerate your product development and research outcomes.</p>
+  </main>
+
+  <footer>© 2025 Innovantum Scientific</footer>
 </body>
 </html>
